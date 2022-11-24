@@ -4,7 +4,6 @@ on:
   push:
     paths:
       - 'roles/HSE/monitoring/**'
-      - 'molecule/monitoring/**'
       - '.github/workflows/monitoring.yml'
  
  #check_suite:
