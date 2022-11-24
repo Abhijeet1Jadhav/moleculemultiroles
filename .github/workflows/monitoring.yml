@@ -38,5 +38,4 @@ jobs:
           python3 -m pip install --user "molecule[docker]"
       
       - name: Molecule Testing
-        run:  cd moleculemultiroles/roles/HSE/monitoring && molecule test
-        
+        run:  cd moleculemultiroles/roles/HSC/monitoring/ && molecule test
